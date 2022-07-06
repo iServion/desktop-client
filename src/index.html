@@ -1,0 +1,252 @@
+<!--
+
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- Primary Meta Tags -->
+    <title>iServion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="iServion Services">
+    <meta name="author" content="Injani Systems">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"><!-- Fontawesome -->
+    <link type="text/css" href="./vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!-- Pixel CSS -->
+    <link type="text/css" href="./css/neumorphism.css" rel="stylesheet">
+
+</head>
+
+<body>
+<header class="header-global">
+    <nav id="navbar-main" aria-label="Primary navigation" class="navbar navbar-main navbar-expand-lg navbar-theme-primary headroom navbar-light navbar-transparent navbar-theme-primary">
+        <div class="container position-relative">
+            <a class="navbar-brand shadow-soft py-2 px-3 rounded border border-light mr-lg-4" href="./index.html">
+                <img class="navbar-brand-dark" src="./assets/logo.png" alt="iServion">
+                <img class="navbar-brand-light" src="./assets/logo.png" alt="iServion">
+            </a>
+            <div class="navbar-collapse collapse" id="navbar_global">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="./index.html" class="navbar-brand shadow-soft py-2 px-3 rounded border border-light">
+                                <img src="./assets/logo.png" alt="iServion logo">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <a href="#navbar_global" class="fas fa-times" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="section section bg-soft pt-1 overflow-hidden z-2">
+        <div class="container z-2">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8 col-xl-8">
+                    <h1 class="display-2 mb-2">iServion Services</h1>
+                    <p class="lead px-md-6 mb-5"><strong>iServion Services</strong> that will help you prototype and design beautiful, creative and modern websites.</p>
+                    <div class="d-flex flex-column flex-wrap flex-md-row justify-content-md-center">
+                        <a href="#" target="_blank" class="btn btn-primary mb-3 mb-lg-0 mr-3"><i class="fas fa-book"></i> Docs v1.0</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <br>
+                    <div class="card bg-primary shadow-soft border-light mb-6">
+                        <div class="card-body text-center text-md-left">
+
+                            <div class="row align-items-center">
+                                <form class="row g-3 needs-validation" novalidate>
+
+                                <div class="col-md-6">
+                                    <h2 class="mb-3">Your Server</h2>
+
+                                    <p class="mb-0">
+                                        Please fill your server configuration. Please see the <a href="#">documentasion</a>.  Status of your server is
+                                        <button class="btn btn-primary btn-connected text-success" style="display: none">
+                                        <span class="mr-1">
+                                        <span class="fas fa-headphones"></span>
+                                    </span>
+                                            Connected
+                                        </button>
+
+                                        <button class="btn btn-primary btn-disconnected text-danger">
+                                        <span class="mr-1">
+                                        <span class="fas fa-headphones"></span>
+                                    </span>
+                                            Disconnect
+                                        </button>
+                                    </p>
+
+                                    <div class="form-group">
+                                        <label for="url">Server URL</label>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="fas fa-laptop"></span></span>
+                                            </div>
+                                            <input class="form-control" id="url" placeholder="https://example.com" value="http://monitoring.injani.com" type="text" aria-label="Your Server" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="token">Token</label>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            </div>
+                                            <input class="form-control" id="token" value="l21kdupf3pJqzFBxLMrvDszuzz9c" placeholder="YOUR_ TOKEN" type="text" aria-label="Your Token" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="code">Code</label>
+                                        <div class="input-group mb-4">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><span class="fas fa-unlock-alt"></span></span>
+                                            </div>
+                                            <input class="form-control" id="code" placeholder="YOUR_ CODE" value="ANDY" type="text" aria-label="Your code" required>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
+                                    <button class="btn btn-primary btn-save" id="save">
+                                        <span class="mr-1">
+                                        <span class="fas fa fa-paper-plane"></span>
+                                    </span>
+                                        Save Server
+                                    </button>
+                                    <button class="btn btn-primary btn-loading-server" style="display: none" type="button" disabled=""><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> <span class="ml-1">Loading...</span></button>
+
+                                    <br>
+
+
+
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10">
+                    <div class="card bg-primary shadow-soft border-light px-4 py-1 mb-2">
+                        <div class="card-body text-center text-md-left">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <h2 class="mb-3">Check / Sync PC - Server</h2>
+                                    <p class="mb-4">
+                                        Do you want to join our team and work remotely from anywhere you'd like? We can’t wait to hear from you!
+                                    </p>
+
+                                </div>
+                                <div class="col-12 col-md-6 mt-4 mt-md-0 text-md-right">
+                                    <img src="./assets/img/illustrations/reading-side.svg" alt="illustration">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button class="btn btn-primary btn-loading-check" type="button" disabled=""><span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display: none"></span> <span class="ml-1">Loading...</span></button>
+
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary btn-check">
+                                         <span class="mr-1">
+                                        <span class="fas fa-file-invoice "></span>
+                                    </span>
+                                        Check Health
+                                    </button>
+
+                                    <button class="btn btn-primary btn-update">
+                                         <span class="mr-1">
+                                        <span class="fas fa-heartbeat "></span>
+                                    </span>
+                                        Check Windows Update
+                                    </button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 informations" style="display: none" >
+                    <div class="card bg-primary shadow-soft border-light px-4 py-5 text-center mb-5">
+                        <div class="card-body pt-2 px-0 px-lg-7">
+                            <p class="mb-5 lead information">
+                                Download Rocket today and take the first step to organize your routine, achieve your personal goals and reflect on your life.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="d-flex pt-md-7 border-top border-light bg-primary">
+    <div class="container">
+        <hr class="my-5">
+        <div class="row">
+            <div class="col">
+                <a href="https://themesberg.com" target="_blank" class="d-flex justify-content-center">
+                    <img src="./assets/logo.png" height="25" class="mb-3" alt="iServion">
+                </a>
+                <div class="d-flex text-center justify-content-center align-items-center" role="contentinfo">
+                    <p class="font-weight-normal font-small mb-0">Copyright © Injani Systems
+                        <span class="current-year">2022</span>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Core -->
+<script src="./vendor/jquery/dist/jquery.min.js"></script>
+<script src="./vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="./vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./vendor/headroom.js/dist/headroom.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="./vendor/onscreen/dist/on-screen.umd.min.js"></script>
+<script src="./vendor/nouislider/distribute/nouislider.min.js"></script>
+<script src="./vendor/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="./vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="./vendor/jarallax/dist/jarallax.min.js"></script>
+<script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
+<script src="./vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+<script src="./vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="./vendor/prismjs/prism.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Neumorphism JS -->
+<script src="./assets/js/neumorphism.js"></script>
+<script src="renderer.js"></script>
+</body>
+</html>

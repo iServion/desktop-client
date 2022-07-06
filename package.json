@@ -1,0 +1,79 @@
+{
+  "name": "iServion",
+  "version": "1.0.0",
+  "description": "iServion service client for iservion server",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js",
+    "run": "electron-forge start src/main.js",
+    "clean": "rimraf dist & rimraf out",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "lint": "echo \"No linting configured\""
+  },
+  "repository": "https://github.com/iServion/services-api",
+  "keywords": [
+    "Electron",
+    "iservion",
+    "server",
+    "monitoring",
+    "desktop"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {
+        "packageManager": "yarn"
+      },
+      "electronWinstallerConfig": {
+        "name": "iServion"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "",
+        "name": ""
+      },
+      "windowsStoreConfig": {
+        "packageName": "",
+        "name": "iServion"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^19.0.7",
+    "electron-builder": "^23.1.0",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "8.2.0",
+    "eslint": "^3",
+    "eslint-config-airbnb": "^15",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jsx-a11y": "^5",
+    "eslint-plugin-react": "^7"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concat-stream": "^2.0.0",
+    "electron-compile": "^6.4.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "form-data": "^4.0.0",
+    "node-cache": "^5.1.2",
+    "ws": "^8.8.0"
+  }
+}
