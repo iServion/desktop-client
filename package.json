@@ -74,6 +74,6 @@
     "electron-squirrel-startup": "^1.0.0",
     "form-data": "^4.0.0",
     "node-cache": "^5.1.2",
-    "ws": "^8.8.0"
+    "ws": "^8.11.0"
   }
 }
