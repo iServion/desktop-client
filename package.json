@@ -68,7 +68,7 @@
     "eslint-plugin-react": "^7"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.2.4",
     "concat-stream": "^2.0.0",
     "electron-compile": "^6.4.4",
     "electron-squirrel-startup": "^1.0.0",
